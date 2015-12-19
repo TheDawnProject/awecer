@@ -1,0 +1,15 @@
+################################################################################
+# bb-master
+#
+
+# start off with not excluding bb-master
+!/bb-master/
+
+# exclude all files in bb-master
+/bb-master/*
+
+# ignore the files we want
+!/bb-master/public_html/
+!/bb-master/master.cfg
+
+################################################################################
